@@ -11,6 +11,11 @@ exports.list = function (req, res) {
 };
 
 exports.conSqlServer = function (reg, res) {
+
+
+    var days = reg.params.days;
+    var farmid = reg.params.farmid;
+
     /*
      var config = {
      userName: 'larsole_foodcomp',
@@ -53,7 +58,7 @@ exports.conSqlServer = function (reg, res) {
 
     var sqlString1 = "WITH [RecursiveLocations] ([ID],[Name],[Parent], Level) " +
         " AS ( SELECT [Locations].[ID],[Locations].[Name],[Locations].[Parent], 0 AS Level " +
-        " FROM [MinkFarmer].[dbo].[Locations] WHERE Locations.[id] IN (379598) " +
+        " FROM [MinkFarmer].[dbo].[Locations] WHERE Locations.[id] IN ("+ farmid +") " +
         " UNION ALL SELECT [Locations].[ID],[Locations].[Name],[Locations].[Parent], Level + 1 " +
         " FROM [MinkFarmer].[dbo].[Locations] " +
         " INNER JOIN [RecursiveLocations] ON [Locations].[Parent] = [RecursiveLocations].[ID]) " +
@@ -64,7 +69,7 @@ exports.conSqlServer = function (reg, res) {
         ",count(cast( [TimeStamp] as date )) as Quantity " +
         "FROM [MinkFarmer].[dbo].[TreatmentView] " +
         "INNER JOIN [RecursiveLocations] ON [TreatmentView].[LocationID] = [RecursiveLocations].[ID] " +
-        "WHERE  cast( [TimeStamp] as date ) >  CONVERT(DATE, DATEADD(day,-7,SYSDATETIME())) " +
+        "WHERE  cast( [TimeStamp] as date ) >  CONVERT(DATE, DATEADD(day,-"+ days +",SYSDATETIME())) " +
         "and  Actions_ID in (15,16) " +
         " group by  cast( [TimeStamp] as date ), [Actions_ID], [Actions_Name], UserID"
 

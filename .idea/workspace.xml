@@ -2,159 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69e7f725-f117-4228-b28d-e0741eecdac9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/component.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/lib/async.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/async/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/big5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/gbk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/singlebyte.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/table/big5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/table/gbk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/generation/generate-big5-table.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/generation/generate-singlebyte.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/test/big5-test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/test/big5File.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/test/cyrillic-test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/test/gbk-test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/test/gbkFile.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/test/greek-test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/test/main-test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/test/performance.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/iconv-lite/test/turkish-test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/sprintf/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/sprintf/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/sprintf/lib/sprintf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/sprintf/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/sprintf/test/function-export.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/node_modules/tedious/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/src-coffee/all-headers.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/src-coffee/all-headers.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/lib/all-headers.js" afterPath="$PROJECT_DIR$/node_modules/tedious/lib/all-headers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/node_modules/async/lib/async.js" afterPath="$PROJECT_DIR$/node_modules/tedious/node_modules/async/lib/async.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/test-coffee/performance/big-select.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/test-coffee/performance/big-select.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/test/performance/big-select.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/test/performance/big-select.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/lib/tracking-buffer/bigint.js" afterPath="$PROJECT_DIR$/node_modules/tedious/lib/tracking-buffer/bigint.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/lib/buffertools.js" afterPath="$PROJECT_DIR$/node_modules/tedious/lib/buffertools.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/node_modules/tedious/.idea/codeStyleSettings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/lib/token/colmetadata-token-parser.js" afterPath="$PROJECT_DIR$/node_modules/tedious/lib/token/colmetadata-token-parser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/test-coffee/integration/connection-test.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/test-coffee/integration/connection-test.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/test/integration/connection-test.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/test/integration/connection-test.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/src-coffee/connection.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/src-coffee/connection.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/lib/connection.js" afterPath="$PROJECT_DIR$/node_modules/tedious/lib/connection.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/test/cyrillic-test.js" afterPath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/test/cyrillic-test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/src-coffee/data-type.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/src-coffee/data-type.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/test-coffee/integration/datatypes-in-results-test.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/test-coffee/integration/datatypes-in-results-test.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/test/integration/datatypes-in-results-test.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/test/integration/datatypes-in-results-test.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/test-coffee/unit/debug-test.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/test-coffee/unit/debug-test.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/test/unit/debug-test.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/test/unit/debug-test.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/test-coffee/unit/token/done-token-parser-test.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/test-coffee/unit/token/done-token-parser-test.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/test/unit/token/done-token-parser-test.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/test/unit/token/done-token-parser-test.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/lib/token/done-token-parser.js" afterPath="$PROJECT_DIR$/node_modules/tedious/lib/token/done-token-parser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/.idea/encodings.xml" afterPath="$PROJECT_DIR$/node_modules/tedious/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/test-coffee/unit/token/env-change-token-parser-test.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/test-coffee/unit/token/env-change-token-parser-test.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/test/unit/token/env-change-token-parser-test.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/test/unit/token/env-change-token-parser-test.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/src-coffee/token/env-change-token-parser.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/src-coffee/token/env-change-token-parser.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/lib/token/env-change-token-parser.js" afterPath="$PROJECT_DIR$/node_modules/tedious/lib/token/env-change-token-parser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/test/gbk-test.js" afterPath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/test/gbk-test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/encodings/gbk.js" afterPath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/encodings/gbk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/encodings/table/gbk.js" afterPath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/encodings/table/gbk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/generation/generate-singlebyte.js" afterPath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/generation/generate-singlebyte.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/test/greek-test.js" afterPath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/test/greek-test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/src-coffee/guid-parser.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/src-coffee/guid-parser.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/lib/guid-parser.js" afterPath="$PROJECT_DIR$/node_modules/tedious/lib/guid-parser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/index.js" afterPath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/test-coffee/unit/token/infoerror-token-parser-test.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/test-coffee/unit/token/infoerror-token-parser-test.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/test/unit/token/infoerror-token-parser-test.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/test/unit/token/infoerror-token-parser-test.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/lib/token/infoerror-token-parser.js" afterPath="$PROJECT_DIR$/node_modules/tedious/lib/token/infoerror-token-parser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/test-coffee/integration/instance-lookup-test.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/test-coffee/integration/instance-lookup-test.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/test/integration/instance-lookup-test.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/test/integration/instance-lookup-test.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/lib/instance-lookup.js" afterPath="$PROJECT_DIR$/node_modules/tedious/lib/instance-lookup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/node_modules/tedious/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/.idea/jsLinters/jshint.xml" afterPath="$PROJECT_DIR$/node_modules/tedious/.idea/jsLinters/jshint.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/test-coffee/unit/login7-payload-test.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/test-coffee/unit/login7-payload-test.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/test/unit/login7-payload-test.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/test/unit/login7-payload-test.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/src-coffee/login7-payload.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/src-coffee/login7-payload.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/lib/login7-payload.js" afterPath="$PROJECT_DIR$/node_modules/tedious/lib/login7-payload.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/test-coffee/unit/token/loginack-token-parser-test.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/test-coffee/unit/token/loginack-token-parser-test.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/test/unit/token/loginack-token-parser-test.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/test/unit/token/loginack-token-parser-test.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/lib/token/loginack-token-parser.js" afterPath="$PROJECT_DIR$/node_modules/tedious/lib/token/loginack-token-parser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/test/main-test.js" afterPath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/test/main-test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/test-coffee/unit/message-io-test.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/test-coffee/unit/message-io-test.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/test/unit/message-io-test.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/test/unit/message-io-test.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/lib/message-io.js" afterPath="$PROJECT_DIR$/node_modules/tedious/lib/message-io.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/src-coffee/metadata-parser.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/src-coffee/metadata-parser.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/lib/metadata-parser.js" afterPath="$PROJECT_DIR$/node_modules/tedious/lib/metadata-parser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/examples/minimal.js" afterPath="$PROJECT_DIR$/node_modules/tedious/examples/minimal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/.idea/misc.xml" afterPath="$PROJECT_DIR$/node_modules/tedious/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/.idea/modules.xml" afterPath="$PROJECT_DIR$/node_modules/tedious/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/lib/token/order-token-parser.js" afterPath="$PROJECT_DIR$/node_modules/tedious/lib/token/order-token-parser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/node_modules/async/package.json" afterPath="$PROJECT_DIR$/node_modules/tedious/node_modules/async/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/package.json" afterPath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/node_modules/sprintf/package.json" afterPath="$PROJECT_DIR$/node_modules/tedious/node_modules/sprintf/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/test-coffee/unit/packet-test.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/test-coffee/unit/packet-test.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/test/unit/packet-test.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/test/unit/packet-test.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/src-coffee/packet.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/src-coffee/packet.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/test-coffee/integration/parameterised-statements-test.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/test-coffee/integration/parameterised-statements-test.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/test/integration/parameterised-statements-test.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/test/integration/parameterised-statements-test.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/examples/parameters.js" afterPath="$PROJECT_DIR$/node_modules/tedious/examples/parameters.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/test/performance.js" afterPath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/test/performance.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/src-coffee/prelogin-payload.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/src-coffee/prelogin-payload.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/lib/prelogin-payload.js" afterPath="$PROJECT_DIR$/node_modules/tedious/lib/prelogin-payload.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/.idea/inspectionProfiles/profiles_settings.xml" afterPath="$PROJECT_DIR$/node_modules/tedious/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/test-coffee/unit/tracking-buffer/readable-tracking-buffer-test.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/test-coffee/unit/tracking-buffer/readable-tracking-buffer-test.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/test/unit/tracking-buffer/readable-tracking-buffer-test.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/test/unit/tracking-buffer/readable-tracking-buffer-test.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/src-coffee/tracking-buffer/readable-tracking-buffer.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/src-coffee/tracking-buffer/readable-tracking-buffer.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/lib/tracking-buffer/readable-tracking-buffer.js" afterPath="$PROJECT_DIR$/node_modules/tedious/lib/tracking-buffer/readable-tracking-buffer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/lib/token/returnstatus-token-parser.js" afterPath="$PROJECT_DIR$/node_modules/tedious/lib/token/returnstatus-token-parser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/lib/token/returnvalue-token-parser.js" afterPath="$PROJECT_DIR$/node_modules/tedious/lib/token/returnvalue-token-parser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/test-coffee/unit/token/row-token-parser-test.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/test-coffee/unit/token/row-token-parser-test.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/test/unit/token/row-token-parser-test.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/test/unit/token/row-token-parser-test.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/lib/token/row-token-parser.js" afterPath="$PROJECT_DIR$/node_modules/tedious/lib/token/row-token-parser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/test-coffee/integration/rpc-test.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/test-coffee/integration/rpc-test.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/test/integration/rpc-test.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/test/integration/rpc-test.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/src-coffee/rpcrequest-payload.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/src-coffee/rpcrequest-payload.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/lib/rpcrequest-payload.js" afterPath="$PROJECT_DIR$/node_modules/tedious/lib/rpcrequest-payload.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/node_modules/tedious/.idea/scopes/scope_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/examples/simple-client.js" afterPath="$PROJECT_DIR$/node_modules/tedious/examples/simple-client.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/encodings/singlebyte.js" afterPath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/encodings/singlebyte.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/lib/special-stored-procedure.js" afterPath="$PROJECT_DIR$/node_modules/tedious/lib/special-stored-procedure.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/node_modules/sprintf/lib/sprintf.js" afterPath="$PROJECT_DIR$/node_modules/tedious/node_modules/sprintf/lib/sprintf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/lib/sqlbatch-payload.js" afterPath="$PROJECT_DIR$/node_modules/tedious/lib/sqlbatch-payload.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/src-coffee/tds-versions.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/src-coffee/tds-versions.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/lib/tds-versions.js" afterPath="$PROJECT_DIR$/node_modules/tedious/lib/tds-versions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/test-coffee/unit/tedious-test.js" afterPath="$PROJECT_DIR$/node_modules/tedious/test-coffee/unit/tedious-test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/test/unit/tedious-test.js" afterPath="$PROJECT_DIR$/node_modules/tedious/test/unit/tedious-test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/test-coffee/unit/token/token-stream-parser-test.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/test-coffee/unit/token/token-stream-parser-test.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/test/unit/token/token-stream-parser-test.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/test/unit/token/token-stream-parser-test.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/src-coffee/token/token-stream-parser.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/src-coffee/token/token-stream-parser.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/lib/token/token-stream-parser.js" afterPath="$PROJECT_DIR$/node_modules/tedious/lib/token/token-stream-parser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/src-coffee/token/token.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/src-coffee/token/token.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/lib/token/token.js" afterPath="$PROJECT_DIR$/node_modules/tedious/lib/token/token.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/test-coffee/unit/tracking-buffer/tracking-buffer-test.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/test-coffee/unit/tracking-buffer/tracking-buffer-test.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/test/unit/tracking-buffer/tracking-buffer-test.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/test/unit/tracking-buffer/tracking-buffer-test.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/src-coffee/transaction.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/src-coffee/transaction.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/lib/transaction.js" afterPath="$PROJECT_DIR$/node_modules/tedious/lib/transaction.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/test-coffee/integration/transactions-test.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/test-coffee/integration/transactions-test.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/test/integration/transactions-test.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/test/integration/transactions-test.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/test/turkish-test.js" afterPath="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/test/turkish-test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/src-coffee/value-parser.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/src-coffee/value-parser.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/lib/value-parser.js" afterPath="$PROJECT_DIR$/node_modules/tedious/lib/value-parser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/.idea/vcs.xml" afterPath="$PROJECT_DIR$/node_modules/tedious/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/user.js" afterPath="$PROJECT_DIR$/routes/user.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/.idea/workspace.xml" afterPath="$PROJECT_DIR$/node_modules/tedious/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/test-coffee/unit/tracking-buffer/writable-tracking-buffer-test.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/test-coffee/unit/tracking-buffer/writable-tracking-buffer-test.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/test/unit/tracking-buffer/writable-tracking-buffer-test.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/test/unit/tracking-buffer/writable-tracking-buffer-test.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/src-coffee/tracking-buffer/writable-tracking-buffer.coffee" afterPath="$PROJECT_DIR$/node_modules/tedious/src-coffee/tracking-buffer/writable-tracking-buffer.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tedious/lib/tracking-buffer/writable-tracking-buffer.js" afterPath="$PROJECT_DIR$/node_modules/tedious/lib/tracking-buffer/writable-tracking-buffer.js" />
     </list>
     <ignored path="MinkfarmerApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -180,7 +30,7 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="22" selection-start="723" selection-end="735" vertical-scroll-proportion="0.0" vertical-offset="64" max-vertical-offset="630">
+            <state line="12" column="0" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
               <folding />
             </state>
           </provider>
@@ -189,7 +39,7 @@
       <file leaf-file-name="user.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="33" selection-start="2118" selection-end="2118" vertical-scroll-proportion="0.68661416" vertical-offset="584" max-vertical-offset="1545">
+            <state line="17" column="0" selection-start="319" selection-end="319" vertical-scroll-proportion="0.25984251" vertical-offset="60" max-vertical-offset="1620">
               <folding />
             </state>
           </provider>
@@ -218,15 +68,15 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/views/layout.jade" />
+        <option value="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/encodings/table/gbk.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/user.js" />
-        <option value="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/encodings/table/gbk.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="38" />
-    <option name="y" value="22" />
+    <option name="x" value="181" />
+    <option name="y" value="108" />
     <option name="width" value="1685" />
     <option name="height" value="1058" />
   </component>
@@ -412,12 +262,18 @@
       <created>1390658115629</created>
       <updated>1390658115629</updated>
     </task>
+    <task id="LOCAL-00001" summary="Changes&#10;">
+      <created>1390772496017</created>
+      <updated>1390772496017</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="38" y="22" width="1685" height="1058" extended-state="0" />
+    <frame x="181" y="108" width="1685" height="1058" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -450,6 +306,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Changes&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -542,13 +400,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="22" selection-start="723" selection-end="735" vertical-scroll-proportion="0.0" vertical-offset="64" max-vertical-offset="630">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/encodings/table/gbk.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="286756" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="948">
@@ -556,9 +407,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/routes/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="33" selection-start="2118" selection-end="2118" vertical-scroll-proportion="0.68661416" vertical-offset="584" max-vertical-offset="1545">
+        <state line="17" column="0" selection-start="319" selection-end="319" vertical-scroll-proportion="0.25984251" vertical-offset="60" max-vertical-offset="1620">
           <folding />
         </state>
       </provider>
