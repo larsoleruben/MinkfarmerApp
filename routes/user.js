@@ -32,10 +32,7 @@ exports.conSqlServer = function (reg, res) {
         server: 'qzsgd0zt2p.database.windows.net',
         options: {database: 'MinkFarmer',
             encrypt: true }
-
-
     }
-
 
     var connection = new Connection(config);
 
@@ -44,12 +41,10 @@ exports.conSqlServer = function (reg, res) {
         }
     );
 
-
     connection.on('errorMessage', function (text) {
             console.log(text);
         }
     );
-
 
     connection.on('debug', function (text) {
             console.log(text);
@@ -71,7 +66,10 @@ exports.conSqlServer = function (reg, res) {
         "INNER JOIN [RecursiveLocations] ON [TreatmentView].[LocationID] = [RecursiveLocations].[ID] " +
         "WHERE  cast( [TimeStamp] as date ) >  CONVERT(DATE, DATEADD(day,-"+ days +",SYSDATETIME())) " +
         "and  Actions_ID in (15,16) " +
-        " group by  cast( [TimeStamp] as date ), [Actions_ID], [Actions_Name], UserID"
+        "group by  cast( [TimeStamp] as date ), [Actions_ID], [Actions_Name] " +
+        "order by date asc, Actions_ID asc "
+
+
 
     function executeStatement() {
 
@@ -83,7 +81,7 @@ exports.conSqlServer = function (reg, res) {
                 console.log(err);
             } else {
                 console.log(rowCount + ' rows');
-                res.send(JSON.stringify(tableObj));
+                res.jsonp(JSON.stringify(tableObj));
             }
         });
 
