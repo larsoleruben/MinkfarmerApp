@@ -78,11 +78,11 @@ exports.mortality = function (reg, res) {
         connection.execSql(request);
     }
 
-    function rowObj(date, Diagnose_ID, Diagnose_Description, Quantity) {
+    function rowObj(date, diagnose_ID, diagnose_Description, quantity) {
         this.date = date;
-        this.Diagnose_ID = Diagnose_ID;
-        this.Diagnose_Description = Diagnose_Description;
-        this.Quantity = Quantity;
+        this.diagnose_ID = diagnose_ID;
+        this.diagnose_Description = diagnose_Description;
+        this.quantity = quantity;
     }
 
 }
