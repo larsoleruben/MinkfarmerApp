@@ -10,22 +10,10 @@ exports.list = function (req, res) {
     res.send("respond with a resource");
 };
 
-exports.conSqlServer = function (reg, res) {
-
+exports.mortality = function (reg, res) {
 
     var days = reg.params.days;
     var farmid = reg.params.farmid;
-
-    /*
-     var config = {
-     userName: 'larsole_foodcomp',
-     password: 'L0rc110901',
-     server: 'msdb3.surftown.dk',
-     options: {
-     "database": 'larsole_ruben'
-     }
-     }
-     */
     var config = {
         userName: 'DsbRef@qzsgd0zt2p',
         password: 'TavsErEnOst1',
@@ -35,7 +23,6 @@ exports.conSqlServer = function (reg, res) {
     }
 
     var connection = new Connection(config);
-
     connection.on('connect', function (err) {
             executeStatement();
         }
@@ -59,20 +46,18 @@ exports.conSqlServer = function (reg, res) {
         " INNER JOIN [RecursiveLocations] ON [Locations].[Parent] = [RecursiveLocations].[ID]) " +
         " SELECT " +
         " cast( [TimeStamp] as date ) as date " +
-        ",[Actions_ID] " +
-        ",[Actions_Name] " +
+        ",[Diagnose_ID] " +
+        ",[Diagnose_Description] " +
         ",count(cast( [TimeStamp] as date )) as Quantity " +
         "FROM [MinkFarmer].[dbo].[TreatmentView] " +
         "INNER JOIN [RecursiveLocations] ON [TreatmentView].[LocationID] = [RecursiveLocations].[ID] " +
         "WHERE  cast( [TimeStamp] as date ) >  CONVERT(DATE, DATEADD(day,-"+ days +",SYSDATETIME())) " +
         "and  Actions_ID in (15,16) " +
-        "group by  cast( [TimeStamp] as date ), [Actions_ID], [Actions_Name] " +
-        "order by date asc, Actions_ID asc "
-
+        "group by  cast( [TimeStamp] as date ) ,[Diagnose_ID],[Diagnose_Description] " +
+        "order by date asc, Diagnose_ID asc "
 
 
     function executeStatement() {
-
         var tableObj = [];
         var responceString = "Start <br>";
 
@@ -93,10 +78,10 @@ exports.conSqlServer = function (reg, res) {
         connection.execSql(request);
     }
 
-    function rowObj(date, Actions_ID, Actions_Name, Quantity) {
+    function rowObj(date, Diagnose_ID, Diagnose_Description, Quantity) {
         this.date = date;
-        this.Actions_ID = Actions_ID;
-        this.Actions_Name = Actions_Name;
+        this.Diagnose_ID = Diagnose_ID;
+        this.Diagnose_Description = Diagnose_Description;
         this.Quantity = Quantity;
     }
 

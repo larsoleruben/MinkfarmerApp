@@ -27,9 +27,9 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
-app.get('/', routes.index);
+app.get('/:data', routes.index);
 app.get('/users', user.list);
-app.get('/conSqlServer/:days/:farmid', user.conSqlServer);
+app.get('/mortality/:days/:farmid', user.mortality);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

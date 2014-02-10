@@ -4,5 +4,7 @@
  */
 
 exports.index = function(req, res){
-  res.render('index', { title: 'Express' });
+   console.log( req.params.data );
+    var commingIn = req.params.data;
+  res.render('index', { title: commingIn });
 };
