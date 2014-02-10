@@ -66,7 +66,7 @@ exports.mortality = function (reg, res) {
                 console.log(err);
             } else {
                 console.log(rowCount + ' rows');
-                res.send(JSON.stringify(tableObj));
+                res.jsonp(JSON.stringify(tableObj));
             }
         });
 
