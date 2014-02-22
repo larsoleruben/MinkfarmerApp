@@ -30,7 +30,7 @@
       <file leaf-file-name="user.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="47" selection-start="2278" selection-end="2278" vertical-scroll-proportion="0.6854839" vertical-offset="520" max-vertical-offset="2385">
+            <state line="93" column="17" selection-start="3163" selection-end="3163" vertical-scroll-proportion="0.41457286" vertical-offset="1035" max-vertical-offset="2415">
               <folding />
             </state>
           </provider>
@@ -39,16 +39,7 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="29" selection-start="800" selection-end="800" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="289" column="0" selection-start="6453" selection-end="6453" vertical-scroll-proportion="0.0" vertical-offset="3483" max-vertical-offset="4755">
+            <state line="32" column="46" selection-start="826" selection-end="826" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
               <folding />
             </state>
           </provider>
@@ -104,10 +95,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2251" />
-    <option name="y" value="249" />
-    <option name="width" value="1685" />
-    <option name="height" value="1058" />
+    <option name="x" value="-2346" />
+    <option name="y" value="47" />
+    <option name="width" value="1695" />
+    <option name="height" value="1234" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -308,11 +299,15 @@
       <created>1392073161555</created>
       <updated>1392073161555</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Adding the treatment part. Almost exactly the same as the other function, consider refractoring it&#10;">
+      <created>1393061607578</created>
+      <updated>1393061607578</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2251" y="249" width="1685" height="1058" extended-state="0" />
+    <frame x="-2346" y="47" width="1695" height="1234" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -321,11 +316,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2592818" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25771326" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39772728" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32919255" sideWeight="0.50030434" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32919255" sideWeight="0.4996957" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27845883" sideWeight="0.5003025" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27845883" sideWeight="0.4996975" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -354,7 +349,8 @@
     <MESSAGE value="Changes in the select statement&#10;" />
     <MESSAGE value="paramter name changed&#10;" />
     <MESSAGE value="experimenting with json&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="experimenting with json&#10;" />
+    <MESSAGE value="Adding the treatment part. Almost exactly the same as the other function, consider refractoring it&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding the treatment part. Almost exactly the same as the other function, consider refractoring it&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -606,21 +602,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="289" column="0" selection-start="6453" selection-end="6453" vertical-scroll-proportion="0.0" vertical-offset="3483" max-vertical-offset="4755">
+        <state line="289" column="10" selection-start="6463" selection-end="6463" vertical-scroll-proportion="0.4723618" vertical-offset="3959" max-vertical-offset="4755">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="29" selection-start="800" selection-end="800" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+        <state line="32" column="46" selection-start="826" selection-end="826" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/tedious/lib/connection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="464" column="58" selection-start="15993" selection-end="15993" vertical-scroll-proportion="-0.66283524" vertical-offset="7479" max-vertical-offset="10575">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="47" selection-start="2278" selection-end="2278" vertical-scroll-proportion="0.6854839" vertical-offset="520" max-vertical-offset="2385">
+        <state line="93" column="17" selection-start="3163" selection-end="3163" vertical-scroll-proportion="0.41457286" vertical-offset="1035" max-vertical-offset="2415">
           <folding />
         </state>
       </provider>
