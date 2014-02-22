@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69e7f725-f117-4228-b28d-e0741eecdac9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/user.js" afterPath="$PROJECT_DIR$/routes/user.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -30,7 +29,7 @@
       <file leaf-file-name="user.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="17" selection-start="3163" selection-end="3163" vertical-scroll-proportion="0.41457286" vertical-offset="1035" max-vertical-offset="2415">
+            <state line="127" column="8" selection-start="4167" selection-end="4167" vertical-scroll-proportion="0.30276382" vertical-offset="1634" max-vertical-offset="2430">
               <folding />
             </state>
           </provider>
@@ -95,8 +94,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2346" />
-    <option name="y" value="47" />
+    <option name="x" value="-2002" />
+    <option name="y" value="82" />
     <option name="width" value="1695" />
     <option name="height" value="1234" />
   </component>
@@ -303,11 +302,15 @@
       <created>1393061607578</created>
       <updated>1393061607578</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Adding fodder and refractoring mortality">
+      <created>1393097844068</created>
+      <updated>1393097844068</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2346" y="47" width="1695" height="1234" extended-state="0" />
+    <frame x="-2002" y="82" width="1695" height="1234" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -316,7 +319,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25771326" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25771326" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39772728" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27845883" sideWeight="0.5003025" order="7" side_tool="true" content_ui="tabs" />
@@ -350,7 +353,8 @@
     <MESSAGE value="paramter name changed&#10;" />
     <MESSAGE value="experimenting with json&#10;" />
     <MESSAGE value="Adding the treatment part. Almost exactly the same as the other function, consider refractoring it&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding the treatment part. Almost exactly the same as the other function, consider refractoring it&#10;" />
+    <MESSAGE value="Adding fodder and refractoring mortality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding fodder and refractoring mortality" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -623,7 +627,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="17" selection-start="3163" selection-end="3163" vertical-scroll-proportion="0.41457286" vertical-offset="1035" max-vertical-offset="2415">
+        <state line="127" column="8" selection-start="4167" selection-end="4167" vertical-scroll-proportion="0.30276382" vertical-offset="1634" max-vertical-offset="2430">
           <folding />
         </state>
       </provider>

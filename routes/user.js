@@ -90,14 +90,7 @@ function rowObj(date, diagnose_ID, diagnose_Description, quantity) {
     this.quantity = quantity;
 }
 
-function fodderRowObj( name,  locationID, fodderQuantity, date, userID, foddermixerID  ){
-    this.name = name;
-    this.locationID = locationID;
-    this.fodderQuantity = fodderQuantity;
-    this.date = date;
-    this.userID = userID;
-    this.foddermixerID = foddermixerID;
-}
+
 
 exports.fodder = function( reg, res ){
     var days = reg.params.days;
@@ -126,13 +119,13 @@ exports.fodder = function( reg, res ){
         }
     );
 
-    var sqlString = "select Name, locationID, FodderQuantity, cast(TimeStamp as date) Date, UserId, FoddermixerID " +
+    var sqlString = "select cast(TimeStamp as date) Date, sum( FodderQuantity) FodderQuantity, Name, locationID, FoddermixerID " +
         " from [dbo].[Foddermixers] " +
         " inner join [dbo].[Fodder] " +
         " on [dbo].[Foddermixers].id = fodder.foddermixerID " +
-        " where [dbo].[Foddermixers].LocationID = " + farmid  +
-        " and cast( [TimeStamp] as date ) >  CONVERT(DATE, DATEADD(day,-"+ days +",SYSDATETIME()))" +
-        " order by TimeStamp desc ";
+        " where [dbo].[Foddermixers].LocationID = "+ farmid +
+        " and cast( [TimeStamp] as date ) >  CONVERT(DATE, DATEADD(day,-"+days+",SYSDATETIME())) " +
+        " group by cast(TimeStamp as date), Name, locationID, FoddermixerID " ;
 
     function executeStatement() {
         var tableObj = [];
@@ -148,11 +141,19 @@ exports.fodder = function( reg, res ){
         });
 
         request.on('row', function (columns) {
-            var actRow = new fodderRowObj(columns[0].value, columns[1].value, columns[2].value, columns[3].value, columns[4].value,columns[5].value);
+            var actRow = new fodderRowObj(columns[0].value, columns[1].value, columns[2].value, columns[3].value, columns[4].value);
             tableObj.push(actRow);
         });
 
         connection.execSql(request);
     }
 
+}
+
+function fodderRowObj( date,  fodderQuantity, name, locationID, foddermixerID  ){
+    this.name = name;
+    this.locationID = locationID;
+    this.fodderQuantity = fodderQuantity;
+    this.date = date;
+    this.foddermixerID = foddermixerID;
 }
