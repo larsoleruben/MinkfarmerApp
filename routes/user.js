@@ -94,7 +94,7 @@ function rowObj(date, diagnose_ID, diagnose_Description, quantity) {
 
 exports.fodder = function( reg, res ){
     var days = reg.params.days;
-    var farmid = reg.params.farmid;
+    var fodderMixerId = reg.params.fodderMixerId;
     var config = {
         userName: 'DsbRef@qzsgd0zt2p',
         password: 'TavsErEnOst1',
@@ -123,7 +123,7 @@ exports.fodder = function( reg, res ){
         " from [dbo].[Foddermixers] " +
         " inner join [dbo].[Fodder] " +
         " on [dbo].[Foddermixers].id = fodder.foddermixerID " +
-        " where [dbo].[Foddermixers].LocationID = "+ farmid +
+        " where [dbo].fodder.foddermixerID = "+ fodderMixerId +
         " and cast( [TimeStamp] as date ) >  CONVERT(DATE, DATEADD(day,-"+days+",SYSDATETIME())) " +
         " group by cast(TimeStamp as date), Name, locationID, FoddermixerID " ;
 

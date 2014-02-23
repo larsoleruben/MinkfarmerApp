@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69e7f725-f117-4228-b28d-e0741eecdac9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/user.js" afterPath="$PROJECT_DIR$/routes/user.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -26,19 +27,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="user.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="user.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="127" column="8" selection-start="4167" selection-end="4167" vertical-scroll-proportion="0.30276382" vertical-offset="1634" max-vertical-offset="2430">
+            <state line="125" column="61" selection-start="4071" selection-end="4071" vertical-scroll-proportion="0.0" vertical-offset="1169" max-vertical-offset="2430">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="46" selection-start="826" selection-end="826" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+            <state line="37" column="0" selection-start="968" selection-end="968" vertical-scroll-proportion="0.6972362" vertical-offset="0" max-vertical-offset="796">
               <folding />
             </state>
           </provider>
@@ -88,8 +89,8 @@
         <option value="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/encodings/table/gbk.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/views/index.jade" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/user.js" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
@@ -306,7 +307,11 @@
       <created>1393097844068</created>
       <updated>1393097844068</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Adding fodder and refractoring mortality&#10;">
+      <created>1393106313935</created>
+      <updated>1393106313935</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -354,7 +359,8 @@
     <MESSAGE value="experimenting with json&#10;" />
     <MESSAGE value="Adding the treatment part. Almost exactly the same as the other function, consider refractoring it&#10;" />
     <MESSAGE value="Adding fodder and refractoring mortality" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding fodder and refractoring mortality" />
+    <MESSAGE value="Adding fodder and refractoring mortality&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding fodder and refractoring mortality&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -611,13 +617,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="46" selection-start="826" selection-end="826" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/tedious/lib/connection.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="464" column="58" selection-start="15993" selection-end="15993" vertical-scroll-proportion="-0.66283524" vertical-offset="7479" max-vertical-offset="10575">
@@ -627,7 +626,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="8" selection-start="4167" selection-end="4167" vertical-scroll-proportion="0.30276382" vertical-offset="1634" max-vertical-offset="2430">
+        <state line="125" column="61" selection-start="4071" selection-end="4071" vertical-scroll-proportion="0.0" vertical-offset="1169" max-vertical-offset="2430">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="0" selection-start="968" selection-end="968" vertical-scroll-proportion="0.6972362" vertical-offset="0" max-vertical-offset="796">
           <folding />
         </state>
       </provider>
