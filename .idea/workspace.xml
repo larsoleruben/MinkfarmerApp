@@ -27,19 +27,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="user.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="user.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="125" column="61" selection-start="4071" selection-end="4071" vertical-scroll-proportion="0.0" vertical-offset="1169" max-vertical-offset="2430">
+            <state line="54" column="20" selection-start="1692" selection-end="1692" vertical-scroll-proportion="1.1818181" vertical-offset="0" max-vertical-offset="3435">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="968" selection-end="968" vertical-scroll-proportion="0.6972362" vertical-offset="0" max-vertical-offset="796">
+            <state line="33" column="41" selection-start="886" selection-end="902" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
               <folding />
             </state>
           </provider>
@@ -89,14 +89,14 @@
         <option value="$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/encodings/table/gbk.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/views/index.jade" />
-        <option value="$PROJECT_DIR$/routes/user.js" />
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/routes/user.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2002" />
-    <option name="y" value="82" />
+    <option name="x" value="-2296" />
+    <option name="y" value="65" />
     <option name="width" value="1695" />
     <option name="height" value="1234" />
   </component>
@@ -311,11 +311,15 @@
       <created>1393106313935</created>
       <updated>1393106313935</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Changed to get on foddermixer ID in stead of mixer">
+      <created>1393114397592</created>
+      <updated>1393114397592</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2002" y="82" width="1695" height="1234" extended-state="0" />
+    <frame x="-2296" y="65" width="1695" height="1234" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -324,11 +328,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25771326" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39772728" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25771326" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39754817" sideWeight="0.4996975" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27845883" sideWeight="0.5003025" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27845883" sideWeight="0.4996975" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39754817" sideWeight="0.5003025" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27845883" sideWeight="0.4996975" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -360,7 +364,8 @@
     <MESSAGE value="Adding the treatment part. Almost exactly the same as the other function, consider refractoring it&#10;" />
     <MESSAGE value="Adding fodder and refractoring mortality" />
     <MESSAGE value="Adding fodder and refractoring mortality&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding fodder and refractoring mortality&#10;" />
+    <MESSAGE value="Changed to get on foddermixer ID in stead of mixer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed to get on foddermixer ID in stead of mixer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -374,7 +379,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="24" />
+      <option name="time" value="29" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -579,11 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/WebStorm7/extLibs/nodejs-v0.8.20-src/core-modules-sources/lib/events.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="0" selection-start="2640" selection-end="2640" vertical-scroll-proportion="0.33215547" vertical-offset="577" max-vertical-offset="3600" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/tedious/node_modules/iconv-lite/encodings/table/gbk.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="286756" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="948" />
@@ -624,16 +624,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/user.js">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="61" selection-start="4071" selection-end="4071" vertical-scroll-proportion="0.0" vertical-offset="1169" max-vertical-offset="2430">
+        <state line="33" column="41" selection-start="886" selection-end="902" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$USER_HOME$/Library/Caches/WebStorm7/extLibs/nodejs-v0.8.20-src/core-modules-sources/lib/events.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="968" selection-end="968" vertical-scroll-proportion="0.6972362" vertical-offset="0" max-vertical-offset="796">
+        <state line="71" column="0" selection-start="2695" selection-end="2695" vertical-scroll-proportion="0.33333334" vertical-offset="560" max-vertical-offset="3600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="20" selection-start="1692" selection-end="1692" vertical-scroll-proportion="1.1818181" vertical-offset="0" max-vertical-offset="3435">
           <folding />
         </state>
       </provider>

@@ -10,6 +10,73 @@ exports.list = function (req, res) {
     res.send("respond with a resource");
 };
 
+exports.fodderArray = function( req, res ){
+    var fodderMixers =  JSON.parse( req.body.foddermixers );
+    var days = req.body.days;
+    var fodderMixerIds = "";
+    for( var i=0; i < fodderMixers.length; i++ ){
+        fodderMixerIds += fodderMixers[i].ID + ",";
+    }
+    fodderMixerIds = fodderMixerIds.slice(0, -1);
+    var config = {
+        userName: 'DsbRef@qzsgd0zt2p',
+        password: 'TavsErEnOst1',
+        server: 'qzsgd0zt2p.database.windows.net',
+        options: {database: 'MinkFarmer',
+            encrypt: true }
+    }
+
+    var connection = new Connection(config);
+    connection.on('connect', function (err) {
+            executeStatement();
+        }
+    );
+
+    connection.on('errorMessage', function (text) {
+            console.log(text);
+        }
+    );
+
+    connection.on('debug', function (text) {
+            console.log(text);
+        }
+    );
+
+    var sqlString = "select cast(TimeStamp as date) Date, sum( FodderQuantity) FodderQuantity, Name, locationID, FoddermixerID " +
+        " from [dbo].[Foddermixers] " +
+        " inner join [dbo].[Fodder] " +
+        " on [dbo].[Foddermixers].id = fodder.foddermixerID " +
+        " where [dbo].fodder.foddermixerID in ("+ fodderMixerIds + ")"+
+        " and cast( [TimeStamp] as date ) >  CONVERT(DATE, DATEADD(day,-"+days+",SYSDATETIME())) " +
+        " group by cast(TimeStamp as date), Name, locationID, FoddermixerID " ;
+
+    function executeStatement() {
+        var tableObj = [];
+        var request;
+        request = new Request(sqlString, function (err, rowCount) {
+            if (err) {
+                console.log(err);
+                res.jsonp(JSON.stringify(err));
+            } else {
+                console.log(rowCount + ' rows');
+                res.jsonp(JSON.stringify(tableObj));
+            }
+        });
+
+        request.on('row', function (columns) {
+            var actRow = new fodderRowObj(columns[0].value, columns[1].value, columns[2].value, columns[3].value, columns[4].value);
+            tableObj.push(actRow);
+        });
+
+        connection.execSql(request);
+    }
+
+
+
+}
+
+
+
 exports.treatment = function (reg, res) {
 
     var days = reg.params.days;
